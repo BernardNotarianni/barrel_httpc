@@ -1,2 +1,7 @@
 # barrel_httpc
-barrel erlang client
+
+An OTP application
+
+## Build
+
+    $ rebar3 compile
