@@ -1,0 +1,22 @@
+{application, barrel_httpc,
+  [{description, "barrel-db HTTP client"},
+    {vsn, "0.8.0"},
+    {registered, []},
+    {mod, {barrel_httpc_app, []}},
+    {applications, [
+      kernel,
+      stdlib,
+      lager,
+      hackney,
+      uuid
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {maintainers, ["Benoit Chesneau"]},
+    {licenses, ["Apache 2"]},
+    {links, [
+      {"Main site", "https://barrel-db.org"},
+      {"Gitlab", "https://gitlab.com/barrel-db/barrel"}
+    ]}
+  ]}.
